@@ -26,10 +26,6 @@ implements. (Refer to BMC document)
 ### Thomas
 - Created Github Repository
 ### Ram
-- Designed and implemented color scheme
-- Created footer component
-- [List other specific contributions]
+- 
 ### Steven
-- Implemented hero section styling
-- Made site responsive for mobile devices
-- [List other specific contributions]
+- 
