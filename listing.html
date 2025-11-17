@@ -5,9 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Job Listing</title>
+
+    <style>
+        .logo_rectangle {
+        height: 100px;
+        width: 200px;
+        background-color: #9FB86C;
+        border-radius: 15px;
+        position: absolute;
+        top: 10px;
+        left: 25px;
+        }
+        .page_title {
+        position: absolute;
+        top: 10px;
+        left: 600px;
+        }
+        .premium_rectangle {
+        height: 50px;
+        width: 150px;
+        background-color: #EE5E5E;
+        border-radius: 15px;
+        position: absolute;
+        right: 125px;
+        top: 35px;
+        }
+        .profile_circle {
+        height: 80px;
+        width: 80px;
+        min-width: 80px;
+        background-color: #555;
+        border-radius: 50%;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        }
+
+    </style>
 </head>
 
 <body>
-    <p>testing vscode yay</p>
+    <header>
+        <div class="logo_rectangle"></div>
+
+        <div class = 'page_title'><h1>Create Job Listing</h1></div>
+        
+
+        <div class="premium_rectangle"></div>
+
+        <div class = "profile_circle"></div>
+        
+        <br><br><br><br><br><br>
+        <hr>
+
+    </header>
+
+    <form action="/submit_listing" method="post">
+        <label for="job_title">Job Title:</label><br>
+        <input type="text" id="job_title" name="job_title" required><br><br>
+
+        <label for="company_name">Company Name:</label><br>
+        <input type="text" id="company_name" name="company_name" required><br><br>
+
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" required><br><br>
+
+        <label for="job_description">Job Description:</label><br>
+        <textarea id="job_description" name="job_description" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Create Listing">
+
 </body>
 </html>
