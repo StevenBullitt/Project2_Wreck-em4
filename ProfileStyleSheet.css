@@ -48,10 +48,12 @@
             width: 224px;
             font-family: "Inter-Regular", Helvetica;
             font-weight: 400;
-            color: #ffffff;
-            font-size: 11px;
+            color: #000000;
+            font-size: 15px;
             letter-spacing: 0;
             line-height: normal;
+            background-color: #ffffff;
+            border-radius: 10px;
  }
 .square .text-wrapper { 
         position: absolute;
@@ -74,11 +76,13 @@
     left: 1px;
     width: 224px;
     font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 11px;
+    font-weight: 800;
+    color: #000000;
+    font-size: 15px;
     letter-spacing: 0;
     line-height: normal;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 .square .text-wrapper-3 {
@@ -104,14 +108,19 @@
 .square .text-wrapper-5 {
     font-family: "Inter-ExtraBold", Helvetica;
     font-weight: 800;
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 .square .text-wrapper-6 {
     font-family: "Inter-ExtraBold", Helvetica;
     font-weight: 800;
-    color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 .square .contact-gmail {
@@ -175,14 +184,14 @@
 
 .square .profileicon {
     position: absolute;
-    top: 46px;
-    left: 36px;
-    width: 166px;
-    height: 166px;
+    top: 10px;
+    left: -230px;
+    width: 200px;
+    height: 200px;
     display: flex;
-    background-image: url(./img/profile-picture.png);
     background-size: cover;
     background-position: 50% 50%;
+    border-radius: 100px;
 }
 
 .square .status {
@@ -243,7 +252,7 @@
     top: 3px;
     position: absolute;
     left: 0px;
-    width: 400px;
+    width: 900px;
     height: 275px;
     background-color: #9fb86c;
     border-radius: 10px;
@@ -255,7 +264,7 @@
     top: 290px;
     position: absolute;
     left: 0px;
-    width: 400px;
+    width: 900px;
     height: 275px;
     background-color: #9fb86c;
     border-radius: 10px;
@@ -267,7 +276,7 @@
     top: 575px;
     position: absolute;
     left: 0px;
-    width: 400px;
+    width: 900px;
     height: 275px;
     background-color: #9fb86c;
     border-radius: 10px;
@@ -279,7 +288,7 @@
     top: 860px;
     position: absolute;
     left: 0px;
-    width: 400px;
+    width: 900px;
     height: 275px;
     background-color: #9fb86c;
     border-radius: 10px;
@@ -289,11 +298,11 @@
 
 .square .scroll-bar {
     top: 0px;
-    left: 1500px;
+    left: 950px;
     overflow-y: scroll;
     overflow-x: hidden;
     position: absolute;
-    width: 400px; 
+    width: 900px; 
     height: 1075px; 
     padding: 10px;
    
@@ -306,7 +315,7 @@
 
 .square .aboutme { 
         position: absolute;
-        top: 240px;
+        top: 230px;
         left: -240px;
         width: 150px;
         font-family: "Inter-Bold", Helvetica;
@@ -338,12 +347,13 @@
 
 .square .experience{
     position: absolute;
-    top: 100px;
-    left: 300px;
+    top: 0px;
+    left: 0px;
     background-color: #9fb86c;
     width: 300px;
-    height: 100px;
+    height: 300px;
     border-radius: 10px;
+    
 
 
 }
@@ -364,13 +374,232 @@
 
 .square .resume{
     position: absolute;
-    top: 600px;
+    top: 630px;
     left: -240px;
     background-color: #9fb86c;
     width: 300px;
     height: 100px;
     border-radius: 10px;
+    border-color: #9fb86c;
 
 
 }
 
+.square .resumepdf{
+    position: absolute;
+    top: 650px;
+    left: -165px;
+   font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 21px; 
+
+
+}
+
+
+.square .uploadresume { 
+        position: absolute;
+        top: 575px;
+        left: -240px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #000000; 
+        font-size: 24px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+.square .addverticle {
+        top: 90px; 
+        position: absolute; 
+        left: 450px; 
+        width: 20px; 
+        height: 80px; 
+        background-color: #4b4b4b; 
+        border-radius: 890px; 
+        transform: rotate(-90deg); 
+         
+
+
+}
+
+
+.square .addhorizontal {
+        top: 90px; 
+        position: absolute; 
+        left: 450px; 
+        width: 20px; 
+        height: 80px; 
+        background-color: #4b4b4b; 
+        border-radius: 890px; 
+        transform: rotate(0deg); 
+         
+
+    
+}
+
+.square .experiencesection { 
+        position: absolute;
+        top: 720px;
+        left: -240px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #000000; 
+        font-size: 24px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+
+.square .line1 { 
+        position: absolute;
+        top: 215px;
+        left: -120px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #434343; 
+        font-size: 24px; 
+        letter-spacing: 0;
+        opacity: 0.5;
+}
+
+
+.square .line2 { 
+        position: absolute;
+        top: 565px;
+        left: -120px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #434343; 
+        font-size: 24px; 
+        letter-spacing: 0;
+        opacity: 0.5;
+}
+
+.square .line3 { 
+        position: absolute;
+        top: 715px;
+        left: -130px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #434343; 
+        font-size: 24px; 
+        letter-spacing: 0;
+        opacity: 0.5;
+}
+
+.square .line4 { 
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 24px; 
+        letter-spacing: 0;
+        opacity: 0.5;
+}
+
+.square .line5 { 
+        position: absolute;
+        top: 300px;
+        left: 0px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 24px; 
+        letter-spacing: 0;
+        opacity: 0.5;
+}
+
+.square .line6 { 
+        position: absolute;
+        top: 585px;
+        left: 0px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 24px; 
+        letter-spacing: 0;
+        opacity: 0.5;
+}
+
+.square .line7 { 
+        position: absolute;
+        top: 870px;
+        left: 0px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 24px; 
+        letter-spacing: 0;
+        opacity: 0.5;
+}
+
+.square .jobrec5 { 
+        position: absolute;
+        top: 852px;
+        left: 10px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 24px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+.square .jobrec6 { 
+        position: absolute;
+        top: 568px;
+        left: 10px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 24px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+.square .jobrec7 { 
+        position: absolute;
+        top: 283px;
+        left: 10px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 24px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+.square .jobrec8 { 
+        position: absolute;
+        top: -7px;
+        left: 10px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 24px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
