@@ -3,7 +3,7 @@
 
 ## Team Members
 - Thomas - Popularguy88
-- Ram - [GitHub Username]
+- Ram - GTrimble042
 - Steven - StevenBullitt
 
 ## Project Description
