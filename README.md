@@ -41,6 +41,7 @@ skill sets and job interests.​
 ### Thomas
 - Created Github Repository
 - Worked on Listing.html
+- Worked on search.html
 ### Ram
 - 
 ### Steven
